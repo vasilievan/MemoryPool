@@ -3,4 +3,4 @@ project(laba5 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(laba5 main.c cell.h memoryPool.h memoryPool.c)
+add_executable(laba5 src/main.c src/cell.h src/memoryPool.h src/memoryPool.c)
